@@ -1,0 +1,20 @@
+<!--
+Header. Common for all pages.
+-->
+<div class="row top-places">
+	<div class="col-md-6">
+		<a href="{{url_for('showCategories')}}">
+			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>Show All Categories
+		</a>
+	</div>
+	<div class="col-md-6 text-right">
+		<p>
+		{% if 'username' not in session%}
+			<a href="{{url_for('showLogin')}}">Click Here to Log In</a>
+		{% else %}
+			<a href="{{url_for('disconnect')}}">Disconnect</a>
+		{% endif %}
+		</p>
+		
+	</div>
+</div>

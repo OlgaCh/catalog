@@ -1,0 +1,166 @@
+/*
+Styles common for the app
+Current design isn't responsive
+*/
+
+* {
+	font-family: "Helvetica Neue Bold", Roboto, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+h1 {
+	font-family: "Helvetica Neue Light", Roboto, Helvetica, Arial, sans-serif;
+	font-size: 50px;
+	color: #2e0969;
+	line-height: 60px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 24px;
+	color: #2e0969;
+	line-height: 29px;
+}
+
+h3 {
+	font-size: 18px;
+	color: #2e0969;
+	line-height: 23px;
+}
+ p {
+ 	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
+ 	font-size: 16px;
+ 	color: #2e0969;
+ 	line-height: 24px;
+ 	font-weight: 400;
+ }
+
+ strong {
+ 	font-size: 16px;
+ 	color: #2e0969;
+ 	line-height: 24px;
+ }
+
+ a {
+ 	font-size: 14px;
+ 	color: #2e0969;
+ 	line-height: 17px;
+ }
+.padding-top {
+	padding-top: 30px;
+}
+.padding-bottom {
+	padding-bottom: 30px;
+}
+.margin-right {
+	margin-right: 30px;
+}
+.padding-none {
+	padding: 0;
+}
+.btn {
+	padding: 20px;
+	margin: 0;
+	border-color: #2e0969;
+	border-width: 2px;
+	color: #2e0969;
+}
+.btn:hover {
+	border-color: #2e0969;
+}
+.btn.delete {
+	border-color: #2e0969;
+	color: #aaaaaa;
+}
+.btn.delete:hover {
+	border-color: #2e0969;
+	color: red;
+}
+.glyphicon {
+	margin-right: 10px;
+}
+.top-places {
+	padding-top: 30px;
+	color: #2e0969;
+}
+.top-places p {
+	margin-bottom: 0;
+	line-height: 16px;
+	color: #2e0969;
+}
+.top-places a {
+	margin-bottom: 0;
+	line-height: 16px;
+	font-size: 16px;
+	color: #2e0969;
+	font-weight: 400;
+}
+.divider {
+	height: 15px;
+	color: #2e0969;
+}
+.row {
+    align: center;
+}
+.banner.main {
+	height: 250px;
+	background: url("/static/top-banner.png");
+	background-position: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner.place {
+	height: 150px;
+	background: url("/static/top-banner-no-text.png");
+	font-weight: 700;
+}
+.banner.profile {
+	height: 150px;
+	background: url("/static/top-banner-no-text.png");
+	font-weight: 700;
+}
+.banner h1 {
+	margin: 45px 0;
+}
+ .category-list {
+ 	background-color: #F0F0F0;
+ 	padding: 20px;
+u }
+ .category-list:hover {
+ 	background-color: #f2be1b;
+ 	padding: 20px;
+}
+.place-item {
+	background: #F0F0F0;
+	padding: 20px;
+}
+
+.creator {
+	padding-right: 20px;
+	margin-top: -20px;
+	text-align: right;
+	float:right;
+}
+.creator img {
+	width: 100px;
+	border-radius: 50%;
+}
+.creator figcaption {
+	font-size: 14px;
+	color: #2e0969;
+	font-weight: 400;
+	margin-top: -20px;
+}
+.flash {
+	background-color: #ef5909;
+	width:100%;
+	text-decoration: none;
+	color:#f6f6f6;
+
+}
+
+.flash li {
+	list-style-type: none;
+	text-align: center;
+    color:#f6f6f6;
+}
